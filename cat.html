@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Julia Hormuth">
+    <link rel="stylesheet" href="cat.css">
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Einfach Sprache</title>
+</head>
+<body>
+    <header>
+    <img class="logo" src="img/einfach.png" alt=""scrset="">  
+</header>
+
+<!--- NAVE----->
+<nav>
+    <ul class="nave">
+        
+        <li><a href="#">ANFANG </a></li>
+        <li><a href="#">AUFGABEN A1</a></li>
+        <li><a href="#">AUFGABEN A2 </a></li>
+        <li><a href="#">AUFGABEN B1 </a></li>
+        <li><a href="#">AUFGABEN B2 </a></li>
+        
+    
+    </ul>
+</nav>
+
+<!----FIM NAVE------->
+
+<div class="enunciado">
+    <img class="exercicio" src="img/exercicio3.png" alt=""scrset="">
+</div>
+
+<div class="main">
+<img class="principal" src="img/gato.png" alt=""scrset="">
+</div>
+
+<section>
+
+<form name="quiz" id="quiz" onsubmit="return verificarRespostas()">
+<div class="aparencia">
+
+<input id="q1" type="radio" name="p1" value="a">&ensp;A)   &ensp; &ensp;&ensp; der Elefant <br/>
+<input id="q2" type="radio" name="p1" value="b">&ensp;B) &ensp; &ensp;&ensp;  das Huhn <br/>
+<input id="q3" type="radio" name="p1" value="c">&ensp;C)  &ensp;&ensp;&ensp;&ensp; die Katze <br/>
+<input id = "q4" type="radio" name="p1" value="d">&ensp;D)   &ensp;&ensp; &ensp;&ensp;die Ziege <br/>
+</div>
+<button onclick="verificarRespostas()" id="btn1">Los Geht´s</button>
+
+<input id="resposta" type="text" name="animal" placeholder="die Antwort" />
+
+
+<!-- <div id ="resultado"></div> ----->
+
+</form>
+</section>
+
+</form>
+
+<div class="continuar">
+<a href="http://127.0.0.1:5500/cat.html"><button class="fas fa-arrow-circle-right"></button> </a>
+</div>
+<!--- onclick = 'enviar();'-->
+
+
+<script src="cat.js"></script> 
+</body>
+</html>

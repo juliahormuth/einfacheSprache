@@ -1,0 +1,188 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*definindo padrão */
+}
+
+body{
+    background-color: #81b29a;
+}
+
+.logo {
+    margin-left: 55vh;
+}
+
+.nave{
+    list-style: none;
+    padding-right: 300px;
+    padding-left: 30%;      /*nave jogado mais a direita */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.nave li {
+    display: inline-block; /* elementos lado a lado */
+    padding: 0px 5px;
+}
+
+.nave li a {
+    font-family: 'Consolas';
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.nave li a:hover{
+    color: black; /*ao passar o mouse */
+}
+
+
+
+.enunciado{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50vh;
+}
+
+.principal{
+    margin-left:50vh;
+    width: 800px;
+}
+
+
+button{
+    padding: 10px 20px;  /*aumentando seu tamanho */
+    padding-right: 20px;
+    background-color: white;
+    border:none;
+    border-radius: 50px; /* borda arredondada */
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline-color: none;
+    color: #41ac78;
+    font-size: 20px;
+    margin-left:0vh;
+    margin-top: 30px;
+    margin-left:600px;
+}
+button:hover{
+    background-color: #41ac78;
+    color: black;
+}
+
+input[type=text]{
+    width: 20%;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid black;
+    margin: 10px 0;
+    font-size:20px;
+    margin-left: 10px;
+    margin-top: 0;
+    font-family: 'Arial';
+   
+   
+    
+}
+
+/*.resposta{
+    margin-top: 10px;
+    margin-left:700px;
+} */
+/*main{
+    
+    display:flex;
+    align-items: center;
+    
+}
+*/
+
+.artigo{
+    float:left; /* deixar ao lado do imput */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-size:35px;
+    font-family: 'Consolas';
+}
+
+
+input[type=submit]{
+    padding: 10px 10px;  /*aumentando seu tamanho */
+    padding-right: 10px;
+    background-color: white;
+    border:none;
+    border-radius: 50px; /* borda arredondada */
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline-color: none;
+    color: #41ac78;
+    font-size: 20px;
+    margin-top: 20px;
+   
+    
+}
+
+
+/*input:hover{
+        background-color: #41ac78;
+        color: black;
+}
+*/
+h2{
+    color: black;
+    margin-left: 800px;
+    margin-bottom: 200px;
+}
+
+
+.continuar{
+    margin-left:820px;
+    padding: 20px 20px;
+}
+
+
+
+input[type='submit']{
+    background-color: aliceblue;
+    border:0;
+    color:black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#resultado h3{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#resultado span{
+    color: #000;
+    font-weight: bold;
+}
+
+.aparencia{
+    margin-top: 10px;
+   margin-left: 700px;
+   margin-right:700px;
+   font-size: 25px;
+   background-color: white;
+   font-family: 'Consolas';
+   border-radius:5px;
+margin-bottom: 0px;
+  
+}
+
+.btn1{
+ margin-left: 500px;
+
+}
+
+.continuar button{
+    margin-left: 10px;
+}
